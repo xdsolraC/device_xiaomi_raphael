@@ -7,6 +7,9 @@
 # Inherit from raphael device
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
+# Inherit ViPER4Android FX
+$(call inherit-product, vendor/v4afx/config.mk)
+
 # Inherit some PixelOS stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
