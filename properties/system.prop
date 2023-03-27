@@ -19,6 +19,9 @@ vendor.camera.enableTOFInterface=TRUE
 # Charger
 ro.charger.enable_suspend=true
 
+# DroidX-UI Maintainer
+ro.droidx.maintainer=x d s o l r a C
+
 # GPS
 persist.vendor.overlay.izat.optin=rro
 
