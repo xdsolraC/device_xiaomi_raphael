@@ -15,6 +15,7 @@ $(call inherit-product, vendor/droidx/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 DROIDX_BUILD_TYPE := OFFICIAL
 DROIDX_GAPPS := true
+EXTRA_UDFPS_ANIMATIONS := true
 TARGET_ENABLE_BLUR := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
